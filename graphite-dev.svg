@@ -8,7 +8,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <rect
-     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:2.00049"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:2.00049"
      id="rect9"
      width="50"
      height="50"
@@ -23,12 +23,12 @@
        d="M 31.028699,2.5 8.5306467,8.5286988 2.5,31.026751 18.971301,47.5 41.469353,41.469353 47.5,18.971301 Z m 3.669812,39.308285 H 15.301489 L 5.6029781,24.998052 15.301489,8.1878192 h 19.397022 l 9.698511,16.8102328 -9.700459,16.810233 z"
        fill="currentColor"
        id="path2"
-       style="fill:#ffffff;fill-opacity:1;stroke-width:1.94788" />
+       style="fill:#000000;fill-opacity:1;stroke-width:1.94788" />
     <path
        d="M 35.974375,14.017834 20.985413,9.9993507 10.011038,20.985413 14.023678,35.984114 29.01264,40.000649 39.988962,29.018483 35.976322,14.019782 Z"
        fill="currentColor"
        id="path1"
-       style="fill:#ffffff;fill-opacity:1;stroke-width:1.94788" />
+       style="fill:#000000;fill-opacity:1;stroke-width:1.94788" />
   </g>
   <defs
      id="defs6" />
