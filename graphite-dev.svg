@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="48"
-   height="48"
-   viewBox="0 0 256 256"
-   fill="none"
-   version="1.1"
-   id="svg2"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <rect
-     width="256"
-     height="256"
-     rx="60"
-     fill="#f4f2ed"
-     id="rect1"
-     x="0"
-     y="0" />
-  <g
-     id="g2"
-     transform="matrix(4.7407407,0,0,4.7407407,9.4814816,9.4814816)">
-    <path
-       d="M 35.974375,14.017834 20.985413,9.9993507 10.011038,20.985413 14.023678,35.984114 29.01264,40.000649 39.988962,29.018483 35.976322,14.019782 Z"
-       fill="currentColor"
-       id="path1-7"
-       style="fill:#000000;fill-opacity:1;stroke-width:1.94788" />
-    <path
-       d="M 31.028699,2.5 8.5306467,8.5286988 2.5,31.026751 18.971301,47.5 41.469353,41.469353 47.5,18.971301 Z m 3.669812,39.308285 H 15.301489 L 5.6029781,24.998052 15.301489,8.1878192 h 19.397022 l 9.698511,16.8102328 -9.700459,16.810233 z"
-       fill="currentColor"
-       id="path2"
-       style="fill:#000000;fill-opacity:1;stroke-width:1.94788" />
+ width="256"
+ height="256"
+ viewBox="0 0 256 256"
+ fill="none"
+ version="1.1"
+ id="svg2"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:svg="http://www.w3.org/2000/svg"
+>
+ <defs id="defs2" />
+ <style>
+  @keyframes rotate {
+   0% {
+    transform: rotate(0deg);
+   }
+   100% {
+    transform: rotate(60deg);
+   }
+  }
+  .rotate-class {
+   animation: rotate 2s linear forwards;
+   animation-iteration-count: infinite;
+   transform-origin: 50% 50%;
+  }
+ </style>
+ <rect width="256" height="256" rx="60" fill="#f4f2ed" id="rect1" x="0" y="0" />
+ <g class="rotate-class">
+  <g id="g2" transform="matrix(4.7407407,0,0,4.7407407,9.4814816,9.4814816)">
+   <path
+    d="M 35.974375,14.017834 20.985413,9.9993507 10.011038,20.985413 14.023678,35.984114 29.01264,40.000649 39.988962,29.018483 35.976322,14.019782 Z"
+    fill="currentColor"
+    id="path1-7"
+    style="fill: #000000; fill-opacity: 1; stroke-width: 1.94788"
+   />
+   <path
+    d="M 31.028699,2.5 8.5306467,8.5286988 2.5,31.026751 18.971301,47.5 41.469353,41.469353 47.5,18.971301 Z m 3.669812,39.308285 H 15.301489 L 5.6029781,24.998052 15.301489,8.1878192 h 19.397022 l 9.698511,16.8102328 -9.700459,16.810233 z"
+    fill="currentColor"
+    id="path2"
+    style="fill: #000000; fill-opacity: 1; stroke-width: 1.94788"
+   />
   </g>
+ </g>
 </svg>
