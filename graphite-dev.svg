@@ -13,14 +13,17 @@
  <style>
   @keyframes rotate {
    0% {
-    transform: rotate(0deg);
+    transform: scale(1) rotate(120deg);
+   }
+   50% {
+    transform: scale(0.9) rotate(60deg);
    }
    100% {
-    transform: rotate(60deg);
+    transform: scale(1) rotate(0deg);
    }
   }
   .rotate-class {
-   animation: rotate 2s linear forwards;
+   animation: rotate 4s linear forwards;
    animation-iteration-count: infinite;
    transform-origin: 50% 50%;
   }
